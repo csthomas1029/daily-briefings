@@ -72,7 +72,12 @@ python -m app.daily_briefing
 # in production mode:
 APP_ENV="production" COUNTRY_CODE="US" ZIP_CODE="20057" python -m app.daily_briefing
 ```
+### Web App
 
+# Windows OS:
+# ... if `export` doesn't work for you, try `set` instead
+export FLASK_APP=web_app
+flask run
 
 ## Testing
 
